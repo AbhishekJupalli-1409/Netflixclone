@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header id="banner">
+        <div class="banner-content">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix Logo"
+                class="logo">
+            <nav class="list">
+                <ul>
+                    <li>Home</li>
+                    <li>TV Shows</li>
+                    <li>Movies</li>
+                    <li>Latest</li>
+                    <li>My List</li>
+
+                </ul>
+            </nav>
+
+        </div>
+        <div class="avatar-bell-search">
+            <nav class="avatar-bell">
+                <ul>
+                    <p class="search">
+                        <a href=""><img src="assets/search.png" alt=""></a>
+                    </p>
+                    <p class="notification">
+                        <a href=""><img src="assets/notification.png" alt=""></a>
+                    </p>
+                    <p class="avatar">
+                        <a href=""><img src="assets/Avatar.jpg" alt=""></a>
+                    </p>
+                </ul>
+            </nav>
+        </div>
+        <div class="movie-info">
+            <h1 id="movie-title"></h1>
+            <p id="movie-overview"></p>
+            <button class="play-btn">Play</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="movie-section" id="trending">
+            <h2>Trending Now</h2>
+            <div class="movie-container"></div>
+        </section>
+
+        <section class="movie-section" id="top-rated">
+            <h2>Top Rated</h2>
+            <div class="movie-container"></div>
+        </section>
+
+        <section class="movie-section" id="action-movies">
+            <h2>Action Movies</h2>
+            <div class="movie-container"></div>
+        </section>
+
+        <section class="movie-section" id="romance-movies">
+            <h2>Romance Movies</h2>
+            <div class="movie-container"></div>
+        </section>
+
+        <section class="movie-section" id="horror-movies">
+            <h2>Horror Movies</h2>
+            <div class="movie-container"></div>
+        </section>
+
+        <section class="movie-section" id="thriller-movies">
+            <h2>Thriller Movies</h2>
+            <div class="movie-container"></div>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

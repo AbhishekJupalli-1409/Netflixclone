@@ -1,0 +1,28 @@
+# .gitignore
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Ignore node_modules and other generated files
+node_modules/
+dist/
+build/
+coverage/
+
+# Ignore logs and other temporary files
+*.log
+*.tmp
+*.bak
+
+# Ignore credentials and sensitive data
+.env
+*.env
+config.json
