@@ -1,5 +1,7 @@
 require('dotenv').config();
-const API_KEY = process.env.TMDB_API_KEY;
+console.log(process.env)
+const API_KEY = "4a0f8eb0308c6a069d518c17f1465a55";
+
 
 
 
