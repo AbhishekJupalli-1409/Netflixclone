@@ -1,6 +1,6 @@
 require('dotenv').config();
 console.log(process.env)
-const API_KEY = "4a0f8eb0308c6a069d518c17f1465a55";
+const API_KEY = '4a0f8eb0308c6a069d518c17f1465a55';
 
 
 
